@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
+    android:background="@drawable/bb"
     tools:context=".MainActivity">
 
     <TextView
@@ -70,7 +71,9 @@
         android:layout_below="@+id/WriterName"
         android:layout_marginTop="112dp"
         android:text="Insert New Book"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        />
 
     <Button
         android:id="@+id/btnUpdate"
@@ -79,7 +82,9 @@
         android:layout_below="@+id/btnInsert"
         android:layout_marginTop="13dp"
         android:text="Update"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        />
 
     <Button
         android:id="@+id/btnDelete"
@@ -88,7 +93,9 @@
         android:layout_below="@+id/btnUpdate"
         android:layout_marginTop="26dp"
         android:text="Delete"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        />
     <Button
         android:id="@+id/btnView"
         android:layout_width="match_parent"
@@ -96,6 +103,8 @@
         android:layout_below="@+id/btnDelete"
         android:layout_marginTop="26dp"
         android:text="All Books"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+        />
 
 </RelativeLayout>
